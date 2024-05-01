@@ -1,0 +1,908 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <title>Document</title>
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <button class="burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <a class="logo" href="index.html">
+                    <img src="img/slider_top/1.webp" alt="logo">
+                </a>
+                <ul class="header__list">
+                    <li class="header__list-item header__list-item--active">
+                        <p class="header__list-link" name="home">Главная</p>
+                    </li>
+                    <li class="header__list-item">
+                        <p class="header__list-link" name="about">Обо мне</p>
+                    </li>
+                    <li class="header__list-item">
+                        <p class="header__list-link" name="catalog">Каталог</p>
+                    </li>
+                    <li class="header__list-item">
+                        <p class="header__list-link" name="register">О заработке</p>
+                    </li>
+                    <li class="header__list-item">
+                        <p class="header__list-link" name="blog">Блог</p>
+                    </li>
+                    <li class="header__list-item">
+                        <p class="header__list-link" name="feedback">Контакты</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="header-overlay"></div>
+    </header>
+    <main>
+        <section class="top block active" id="home">
+            <div class="container">
+                <div class="top__inner">
+                    <div class="top__info">
+                        <h1 class="top__title"><span>Atomy</span>Корейская косметика </h1>
+                        <p class="top__subtitle">Пройдите регистрацию в компании и пользуйтесь корейской косметикой
+                            премиум качества по доступным ценам со скидкой до 15%</p>
+                        <div class="top-link link-to" name="feedback">
+                            <span>Зарегистрироваться</span>
+                            <div class="top-link-box">
+                                <ion-icon name="key-outline"></ion-icon>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="top__slider">
+                        <div class="top__slider-wrapper">
+                            <div class="top__slider-slide top__slider-slide--active" id="slide-1">
+                                <img class="top__slider-img" src="img/slider_top/8.webp" alt="slider">
+                            </div>
+                            <div class="top__slider-slide" id="slide-2">
+                                <img class="top__slider-img" src="img/slider_top/2.webp" alt="slider">
+                            </div>
+                            <div class="top__slider-slide" id="slide-3">
+                                <img class="top__slider-img" src="img/slider_top/9.webp" alt="slider">
+                            </div>
+                            <div class="top__slider-slide" id="slide-4">
+                                <img class="top__slider-img" src="img/slider_top/4.webp" alt="slider">
+                            </div>
+                            <div class="top__slider-slide" id="slide-5">
+                                <img class="top__slider-img" src="img/slider_top/5.webp" alt="slider">
+                            </div>
+                            <div class="top__slider-slide" id="slide-6">
+                                <img class="top__slider-img" src="img/slider_top/6.webp" alt="slider">
+                            </div>
+                            <div class="top__slider-slide" id="slide-7">
+                                <img class="top__slider-img" src="img/slider_top/3.webp" alt="slider">
+                            </div>
+                        </div>
+                        <div class="top__slider-bottom">
+                            <div class="top__slider-btns">
+                                <div class="top-button-prev"><ion-icon name="chevron-forward-outline"></ion-icon></div>
+                                <div class="top-button-next"><ion-icon name="chevron-forward-outline"></ion-icon></div>
+                            </div>
+                            <div class="top__slider-progress"></div>
+                            <div class="top__slider-number"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about block" id="about">
+            <div class="container">
+                <h1 class="page-title">обо <span>мне</span></h1>
+                <div class="about__inner">
+                    <div class="about__right">
+                        <img class="about__right-img" src="img/about.webp" alt="about">
+                    </div>
+                    <h3 class="about__left-title">ИНФОРМАЦИЯ ОБО МНЕ</h3>
+                    <div class="about__list-item" id="text-1">
+                        <p class="about__list-text">Всем привет! Меня зовут Настя. Мне 21 год. Я решила
+                            работать в компании Атоми.</p>
+                    </div>
+                    <div class="about__list-item" id="text-2">
+                        <p class="about__list-text">Я слышала о данной компании, но не планировала использовать
+                            её продукцию или работать там. Я предпочитаю бюджетную продукцию, а корейская
+                            косметика считается дорогой. Несмотря на утверждения о более низких ценах на
+                            продукцию в компании "Атоми", я все равно отказывалась от этой идеи. Негативный опыт
+                            работы в сетевом бизнесе в другой компании стал причиной моего нежелания работать в
+                            данной компании.</p>
+                    </div>
+                    <div class="about__list-item" id="text-3">
+                        <p class="about__list-text">Но потом я все-таки решила попробовать начать работать в
+                            Атоми. Этому поспособствовал пример моей знакомой. Она рассказывала о реальных
+                            выплатах в компании, выгодных условиях работы и делилась положительными отзывами о
+                            продукции. Тогда же мне подарили протеиновый набор по уходу за волосами, состоящий
+                            из шампуняи тритментом для волос. После пользования этим набором, я была в
+                            восторге Мои волосы, которые обычно как солома, были гладкие и блестящие. Это тоже
+                            повлияло на то, что я пришла в компанию.</p>
+                    </div>
+                    <div class="about__list-item" id="text-4">
+                        <p class="about__list-text">Я стала пользоваться этой продукцией постоянно. Теперь я
+                            буду всем советовать
+                            продукцию Атоми и делиться положительными отзывами на неё. Ведь она такая классная,
+                            бюджетная( в сравнении с корейской косметикой других компаний) и самое главное
+                            действенная.</p>
+                    </div>
+                    </ul>
+                    <div class="top-link link-to" name="feedback">
+                        <span>Написать</span>
+                        <div class="top-link-box">
+                            <ion-icon name="paper-plane-outline"></ion-icon>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <section class="catalog block" id="catalog">
+            <div class="container">
+                <h1 class="page-title">Каталог <span>товаров</span></h1>
+                <div class="catalog__inner">
+                    <div class="catalog__slider-wrapper">
+                        <div class="swiper catalog__slider">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide catalog__slider-slide">
+                                    <div class="catalog__slider-box">
+                                        <div class="catalog__slider-img-wrapper">
+                                            <img class="catalog__slider-img" src="img/product/4.webp" alt="product">
+                                            <div class="catalog__slider-shadow"></div>
+                                        </div>
+                                    </div>
+                                    <p class="catalog__slider-text"><span>Atomy</span>Cerabebe</p>
+                                </div>
+                                <div class="swiper-slide catalog__slider-slide">
+                                    <div class="catalog__slider-box">
+                                        <div class="catalog__slider-img-wrapper">
+                                            <img class="catalog__slider-img" src="img/product/5.webp" alt="product">
+                                            <div class="catalog__slider-shadow"></div>
+                                        </div>
+                                    </div>
+                                    <p class="catalog__slider-text"><span>Atomy</span>Ampoule</p>
+                                </div>
+                                <div class="swiper-slide catalog__slider-slide">
+                                    <div class="catalog__slider-box">
+                                        <div class="catalog__slider-img-wrapper">
+                                            <img class="catalog__slider-img" src="img/product/6.webp" alt="product">
+                                            <div class="catalog__slider-shadow"></div>
+                                        </div>
+                                    </div>
+                                    <p class="catalog__slider-text"><span>Atomy</span>Derma Ampoule</p>
+                                </div>
+                                <div class="swiper-slide catalog__slider-slide">
+                                    <div class="catalog__slider-box">
+                                        <div class="catalog__slider-img-wrapper">
+                                            <img class="catalog__slider-img" src="img/product/1.webp" alt="product">
+                                            <div class="catalog__slider-shadow"></div>
+                                        </div>
+                                    </div>
+                                    <p class="catalog__slider-text"><span>Atomy</span> Herbal Hair</p>
+                                </div>
+                                <div class="swiper-slide catalog__slider-slide">
+                                    <div class="catalog__slider-box">
+                                        <div class="catalog__slider-img-wrapper">
+                                            <img class="catalog__slider-img" src="img/product/8.webp" alt="product">
+                                            <div class="catalog__slider-shadow"></div>
+                                        </div>
+                                    </div>
+                                    <p class="catalog__slider-text"><span>Atomy</span>Fabric Softener</p>
+                                </div>
+                                <div class="swiper-slide catalog__slider-slide">
+                                    <div class="catalog__slider-box">
+                                        <div class="catalog__slider-img-wrapper">
+                                            <img class="catalog__slider-img" src="img/product/3.webp" alt="product">
+                                            <div class="catalog__slider-shadow"></div>
+                                        </div>
+                                    </div>
+                                    <p class="catalog__slider-text"><span>Atomy</span>Eye-Complex</p>
+                                </div>
+                                <div class="swiper-slide catalog__slider-slide">
+                                    <div class="catalog__slider-box">
+                                        <div class="catalog__slider-img-wrapper">
+                                            <img class="catalog__slider-img" src="img/product/7.webp" alt="product">
+                                            <div class="catalog__slider-shadow"></div>
+                                        </div>
+                                    </div>
+                                    <p class="catalog__slider-text"><span>Atomy</span>Fabric Detergent</p>
+                                </div>
+                            </div>
+                            <div class="swiper-button-prev catalog-button-prev">
+                                <ion-icon name="chevron-forward-outline"></ion-icon>
+                            </div>
+                            <div class="swiper-button-next catalog-button-next">
+                                <ion-icon name="chevron-forward-outline"></ion-icon>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="catalog__box">
+                        <h3 class="catalog__box-title">Категории товаров</h3>
+                        <ul class="catalog__list">
+                            <li class="catalog__list-item" id="2">
+                                <div class="catalog__list-img-box">
+                                    <img class="catalog__list-img" src="img/catalog/2.webp" alt="catalog">
+                                </div>
+                                <p class="catalog__list-title">Витамины и БАДы Атоми</p>
+                            </li>
+                            <li class="catalog__list-item" id="3">
+                                <div class="catalog__list-img-box">
+                                    <img class="catalog__list-img" src="img/catalog/3.webp" alt="catalog">
+                                </div>
+                                <p class="catalog__list-title">Уход за кожей лица</p>
+                            </li>
+                            <li class="catalog__list-item" id="4">
+                                <div class="catalog__list-img-box">
+                                    <img class="catalog__list-img" src="img/catalog/4.webp" alt="catalog">
+                                </div>
+                                <p class="catalog__list-title">Солнцезащитные средства</p>
+                            </li>
+                            <li class="catalog__list-item" id="5">
+                                <div class="catalog__list-img-box">
+                                    <img class="catalog__list-img" src="img/catalog/5.webp" alt="catalog">
+                                </div>
+                                <p class="catalog__list-title">Декоративная косметика</p>
+                            </li>
+                            <li class="catalog__list-item" id="6">
+                                <div class="catalog__list-img-box">
+                                    <img class="catalog__list-img" src="img/catalog/6.webp" alt="catalog">
+                                </div>
+                                <p class="catalog__list-title">Средства для ухода за волосами</p>
+                            </li>
+                            <li class="catalog__list-item" id="7">
+                                <div class="catalog__list-img-box">
+                                    <img class="catalog__list-img" src="img/catalog/7.webp" alt="catalog">
+                                </div>
+                                <p class="catalog__list-title">Уход за полостью рта</p>
+                            </li>
+                            <li class="catalog__list-item" id="8">
+                                <div class="catalog__list-img-box">
+                                    <img class="catalog__list-img" src="img/catalog/8.webp" alt="catalog">
+                                </div>
+                                <p class="catalog__list-title">Для дома</p>
+                            </li>
+                            <li class="catalog__list-item" id="9">
+                                <div class="catalog__list-img-box">
+                                    <img class="catalog__list-img" src="img/catalog/9.webp" alt="catalog">
+                                </div>
+                                <p class="catalog__list-title">Продукты питания</p>
+                            </li>
+                            <li class="catalog__list-item" id="1">
+                                <div class="catalog__list-img-box">
+                                    <img class="catalog__list-img" src="img/catalog/1.webp" alt="catalog">
+                                </div>
+                                <p class="catalog__list-title">Одежда</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="register block" id="register">
+            <div class="container">
+                <h1 class="page-title">КАК НАЧАТЬ <span>ЗАРАБАТЫВАТЬ c атоми</span></h1>
+                <div class="register__inner">
+                    <ul class="register__list">
+                        <li class="register__list-item">
+                            <div class="register__list-box">
+                                <p class="register__list-number">01</p>
+                                <p class="register__list-title">Регистрация</p>
+                            </div>
+                            <p class="register__list-text">Даже если ты пока не планируешь работать, регистрация
+                                необходима, чтобы сделать заказ.</p>
+                        </li>
+                        <li class="register__list-item">
+                            <div class="register__list-box">
+                                <p class="register__list-number">02</p>
+                                <p class="register__list-title">Активация</p>
+                            </div>
+                            <p class="register__list-text">Если планируешь работать, необходимо активировать свой личный
+                                кабинет, сделав заказ примерно на 1500-2000.</p>
+                        </li>
+                        <li class="register__list-item">
+                            <div class="register__list-box">
+                                <p class="register__list-number">03</p>
+                                <p class="register__list-title">Знакомство с компанией</p>
+                            </div>
+                            <p class="register__list-text">Необходимо изучить все аспекты с маркетинг-планом, узнать о
+                                выплатах компании, изучить продукцию. Очень может в этом помочь школа Атоми, но ты
+                                можешь также следить за моими публикациями, я тоже стараюсь обо всем рассказывать.</p>
+                        </li>
+                        <li class="register__list-item">
+                            <div class="register__list-box">
+                                <p class="register__list-number">04</p>
+                                <p class="register__list-title">Работа с людьми</p>
+                            </div>
+                            <p class="register__list-text">Твоя задача: привлечение новых партнеров. Существуют разные
+                                способы: соц. сети, рекрутинг, можешь рассказывать родным и друзьям. Ты можешь выбрать
+                                то, что тебе по душе, но лучше сочетать это все вместе.</p>
+                        </li>
+                        <div class="register-line-1">
+                            <picture>
+                                <source srcset="img/line-mini.svg" media="(max-width: 1000px)">
+                                <img src="img/line.svg" alt="arrow">
+                            </picture>
+                        </div>
+                        <div class="register-line-2">
+                            <picture>
+                                <source srcset="img/line-mini.svg" media="(max-width: 1000px)">
+                                <img src="img/line.svg" alt="arrow">
+                            </picture>
+                        </div>
+                        <div class="register-line-3">
+                            <picture>
+                                <source srcset="img/line-mini.svg" media="(max-width: 1000px)">
+                                <img src="img/line.svg" alt="arrow">
+                            </picture>
+                        </div>
+                    </ul>
+                    <div class="register__buy">
+                        <h3 class="register__buy-title">ПРОЗРАЧНЫЙ ДОХОД</h3>
+                        <p class="register__buy-subtitle">Возможность совмещать с основной работой</p>
+                        <div class="register__buy-box">
+                            <div class="register__buy-item">
+                                <img class="register__buy-img" src="img/14.webp" alt="picture">
+                                <div class="register__buy-item-box">
+                                    <p class="register__buy-text">ЛИЧНЫЙ КАБИНЕТ</p>
+                                    <p class="register__buy-info">Проверяйте отчеты о продажах ежедневно и следить за
+                                        своим доходом</p>
+                                </div>
+                            </div>
+                            <div class="register__buy-item">
+                                <img class="register__buy-img" src="img/12.webp" alt="picture">
+                                <div class="register__buy-item-box">
+                                    <p class="register__buy-text">ЗАРПЛАТА</p>
+                                    <p class="register__buy-info">Получайте еженедельные выплаты комиссионного
+                                        вознаграждения, которые будут перечислены на ваш банковский счет</p>
+                                </div>
+                            </div>
+                            <div class="register__buy-item">
+                                <img class="register__buy-img" src="img/16.webp" alt="picture">
+                                <div class="register__buy-item-box">
+                                    <p class="register__buy-text">ПРЕМИИ</p>
+                                    <p class="register__buy-info">Следуйте установленному плану продаж без изменений и
+                                        получайте две дополнительные премии ежемесячно. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="blog block" id="blog">
+            <div class="container">
+                <h1 class="page-title">мой <span>блог</span></h1>
+                <div class="blog__inner">
+                    <ul class="blog__list">
+                        <li class="blog__list-item">
+                            <img class="blog__list-img" src="img/blog/2.webp" alt="blog">
+                            <div class="blog__list-wrapper">
+                                <p class="blog__list-title">Кто такая Атоми?</p>
+                                <p class="blog__list-date">18 июля 2023</p>
+                                <p class="blog__list-text">
+                                    <span>АТОМИ – это корейская сетевая компания, ведущий мировой бренд в области
+                                        красоты и здоровья.</span>
+                                    <span>Философия продукции Atomy — абсолютное непревзойденное качество по абсолютной
+                                        цене. Абсолютное качество означает качество, которое не может предложить никто
+                                        другой на рынке по определенной цене. Абсолютная цена — самая низкая цена,
+                                        которая только возможна без ущерба для качества. Именно эта ценность стоит во
+                                        главе угла с самого основания Atomy.</span>
+                                    <span>Президент компании Атоми Пак Хан Гиль – христианин.</span>
+                                    <span>Он основал свою компанию в 2009 году, а в 2018 году компания вошла в
+                                        Россию.</span>
+                                    <span>Ассортимент товаров включает в себя:
+                                        уникальную биологически активную пищевую добавку ХемоХим, уходовую и
+                                        декоративную косметику премиум класса, товары для ухода за волосами, полостью
+                                        рта, средства для интимной гигиены, продукты питания и многое другое.</span>
+                                    <span>Благодаря созданному товарообороту, корейская компания щедро платит своим
+                                        партнерам.</span>
+                                </p>
+                                <div class="blog__list-btn">Читать дальше</div>
+                            </div>
+                        </li>
+                        <li class="blog__list-item">
+                            <img class="blog__list-img" src="img/blog/3.webp" alt="blog">
+                            <div class="blog__list-wrapper">
+                                <p class="blog__list-title">Выплаты в Атоми</p>
+                                <p class="blog__list-date">8 октября 2023</p>
+                                <p class="blog__list-text">
+                                    <span>-1500р? Пф, это же копейки!</span>
+                                    <span>Но такие выплаты можно получать за день. Выплаты начисляются за бинарный шаг.
+                                        То есть такие суммы ты можешь получать за раз. И это только структурный бонус.
+                                        Он начисляется за товарооборот твоей структуры.</span>
+                                    <span>То есть ты можешь не привлекать людей в бизнес, а просто расхваливать
+                                        продукцию и привлекать их именно как покупателей. Это сделать гораздо проще. Не
+                                        все люди хотят работать в сетевом, выстраивать структуры и прочее. Но многие
+                                        хотят пользоваться качественной и недорогой продукцией. Поэтому, просто
+                                        приглашая новых клиентов в Атоми, ты будешь получать деньги с их
+                                        товарооборота.</span>
+                                    <span>Прикинь, как круто! Ты однажды привел людей, которые захотели пользоваться
+                                        этой продукцией. Они заказывают и кайфуют, и ты тоже кайфуешь. Ведь тебе, считай
+                                        просто так приходят деньги.</span>
+                                    <span>Но это ещё не все. В Атоми существуют и другие выплаты. Но о них в другой
+                                        раз.</span>
+                                </p>
+                                <div class="blog__list-btn">Читать дальше</div>
+                            </div>
+                        </li>
+                        <li class="blog__list-item">
+                            <img class="blog__list-img" src="img/blog/1.webp" alt="blog">
+                            <div class="blog__list-wrapper">
+                                <p class="blog__list-title">Мой уход для волос</p>
+                                <p class="blog__list-date">5 октября 2023</p>
+                                <p class="blog__list-text">
+                                    <span>Мой уход для волос от Атоми состоит из трех средств.</span>
+                                    <span>Первым делом я использую шампунь Абсолют. Он глубоко очищает кожу головы и
+                                        укрепляет волосы. Смываю.</span>
+                                    <span>Затем наношу маску для волос. Она хорошо восстанавливает поврежденные
+                                        волосы.</span>
+                                    <span>А мои волосы часто подвергаются всяким пыткам быстро высушить на максимальной
+                                        скорости и температуре (знаю, что вредно, но что делать? Приходится), то плойкой
+                                        их постоянно закручиваю. Вообщем маска мне в помощь! Выдерживаю ее где-то пару
+                                        минут и смываю.</span>
+                                    <span>Затем в конце в дело идет кондиционер, который хорошо увлажняет волосы и
+                                        придает им гладкость.</span>
+                                    <span>Ну а завершаю я весь процесс маслом для волос, но о нем в следующий
+                                        раз.</span>
+                                </p>
+                                <div class="blog__list-btn">Читать дальше</div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="blog-window">
+                    <h3 class="blog-window-title"></h3>
+                    <p class="blog-window-date">16 сентября 2023</p>
+                    <p class="blog-window-text"></p>
+                    <button class="blog-window-btn"><ion-icon name="close-outline"></ion-icon></button>
+                </div>
+            </div>
+            <div class="blog-overlay"></div>
+        </section>
+
+        <section class="feedback block" id="feedback">
+            <div class="container">
+                <h1 class="page-title">мои <span>контакты</span></h1>
+                <div class="feedback__inner">
+                    <div class="feedback__left">
+                        <h4 class="feedback__left-title">СВЯЖИТЕСЬ СО МНОЙ</h4>
+                        <p class="feedback__left-text">Для регистрации в Атоми, вы можете связаться со мной любым
+                            удобным для вас способом или оставить заявку, после чего я свяжусь с вами в ближайшее время.
+                        </p>
+                        <ul class="feedback__list">
+                            <li class="feedback__list-item">
+                                <p class="feedback__list-text">Email:</p>
+                                <a class="feedback__list-link"
+                                    href="mailto:nastya.monogarova.02@mail.ru">nastya.monogarova.02@mail.ru</a>
+                            </li>
+                            <li class="feedback__list-item">
+                                <p class="feedback__list-text">Телефон:</p>
+                                <a class="feedback__list-link" href="tel:89538108449">89538108449</a>
+                            </li>
+                        </ul>
+                        <div class="feedback__links">
+                            <a class="feedback-link"
+                                href="https://instagram.com/nastya___176?igshid=MzRlODBiNWFlZA=="><ion-icon
+                                    name="logo-instagram"></ion-icon></a>
+                            <a class="feedback-link" href="https://vk.com/id446715545"><ion-icon
+                                    name="logo-vk"></ion-icon></a>
+                            <a class="feedback-link" href="tel:89538108449"><ion-icon
+                                    name="logo-whatsapp"></ion-icon></a>
+                            <a class="feedback-link" href="https://t.me/nmnastena">
+                                <!DOCTYPE svg
+                                    PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+                                <!-- Uploaded to: SVG Repo, www.svgrepo.com, Transformed by: SVG Repo Mixer Tools -->
+                                <svg fill="#fff" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24" xml:space="preserve"
+                                    width="800px" height="800px">
+
+                                    <g id="SVGRepo_bgCarrier" stroke-width="0" />
+
+                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" />
+
+                                    <g id="SVGRepo_iconCarrier">
+                                        <style type="text/css">
+                                            .st0 {
+                                                fill: none;
+                                            }
+                                        </style>
+                                        <path
+                                            d="M19.2,4.4L2.9,10.7c-1.1,0.4-1.1,1.1-0.2,1.3l4.1,1.3l1.6,4.8c0.2,0.5,0.1,0.7,0.6,0.7c0.4,0,0.6-0.2,0.8-0.4 c0.1-0.1,1-1,2-2l4.2,3.1c0.8,0.4,1.3,0.2,1.5-0.7l2.8-13.1C20.6,4.6,19.9,4,19.2,4.4z M17.1,7.4l-7.8,7.1L9,17.8L7.4,13l9.2-5.8 C17,6.9,17.4,7.1,17.1,7.4z" />
+                                        <rect y="0" class="st0" width="24" height="24" />
+                                    </g>
+
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="feedback__right">
+                        <form class="feedback__form" id="form" action="mail.php" method="POST">
+                            <div class="feedback__form-inputwrapper">
+                                <div class="input-wrapper">
+                                    <input class="feedback__form-input" type="text" name="name" id="name"
+                                        placeholder="Имя">
+                                </div>
+                                <div class="input-wrapper">
+                                    <input class="feedback__form-input" type="text" name="email" id="email"
+                                        placeholder="Email">
+                                </div>
+                            </div>
+                            <input class="feedback__form-input" type="tel" name="phone" id="phone"
+                                placeholder="Телефон">
+                            <textarea class="feedback__form-textarea" name="message"
+                                placeholder="Сообщение здесь"></textarea>
+                            <button class="feedback__form-btn top-link" type="submit">
+                                <span>Оставить заявку</span>
+                                <div class="top-link-box">
+                                    <ion-icon name="paper-plane-outline"></ion-icon>
+                                </div>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="products">
+            <div class="container">
+                <div class="products__inner">
+                    <div class="breadcrumb">
+                        <ul class="breadcrumb__list">
+                            <li class="breadcrumb__list-item">
+                                <a class="breadcrumb__list-link" href="#">Главная</a>
+                            </li>
+                            <li class="breadcrumb__list-item">
+                                <a class="breadcrumb__list-link" href="#">Каталог</a>
+                            </li>
+                            <li class="breadcrumb__list-item">
+                                <p class="breadcrumb__list-choice"></p>
+                            </li>
+                        </ul>
+                    </div>
+                    <h3 class="catalog__box-title products__box-title"></h3>
+                    <p class="products__text"></p>
+                    <ul class="products__list"></ul>
+                </div>
+                <button class="products__back"><ion-icon name="arrow-back-outline"></ion-icon></button>
+                <button class="products__close"><ion-icon name="close-outline"></ion-icon></button>
+            </div>
+        </section>
+
+        <selection class="names">
+            <p id="text-1-1">Водолазка мужская трикотажная Atomy Men’s Soft Touch Turtleneck Knit</p>
+            <p id="text-1-2">Водолазка трикотажная Atomy Women’s Soft Touch Turtleneck Knit</p>
+            <p id="text-1-3">Кожаный ремень двусторонний женский Atomy Women’s Reversible Belt</p>
+            <p id="text-1-4">Колготки плотные с компрессионным эффектом 2 пары Atomy Hip Up Tights</p>
+            <p id="text-1-5">Мужская рубашка люкс Men’s Noble Dress Shirts</p>
+            <p id="text-1-6">Следки женские 3 пары Women’s Basic Foot Cover</p>
+            <p id="text-1-7">Термоколготки Terry Tights 2 пары</p>
+            <p id="text-1-8">Колготки капроновые 20 den 7 шт. Atomy Slim Line Panty Stocking Black</p>
+            <p id="text-1-9">Трусики менструальные Women’s Bamboo 40’s Sanitary Panty</p>
+            <p id="text-1-10">Бюстгальтер 2 шт. Atomy Women’s Comfort Wireless Brrasiere Set</p>
+            <p id="text-2-1">Atomy Vital Color Vitamin C 500, 90 саше</p>
+            <p id="text-2-2">Atomy Vital Mega Vitamin C 2000, 90 саше</p>
+            <p id="text-2-3">Активная добавка Atomy Quantum Energy Stick 30 штук</p>
+            <p id="text-2-4">Альтейдж Омега-3 с растительной капсулой Atomy rTG Omega3, 180 капсул</p>
+            <p id="text-2-5">Аляска Омега-3 Atomy Alaska E-Omega3 180 капсул</p>
+            <p id="text-2-6">Атоми rTG Омега-3 с растительной капсулой, 270 капсул</p>
+            <p id="text-2-7">Банаба и Женьшень для снижения сахара в крови Atomy Glucose Care Banaba & Red Ginseng 30
+                стиков</p>
+            <p id="text-2-8">Биотин Atomy Blooming Biotin 60 капсул</p>
+            <p id="text-2-9">Витаминный комплекс для глаз Лютеин Atomy Eye Lutein 90 капсул</p>
+            <p id="text-2-10">Витаминный комплекс для глаз Премиум Лютеин 90 капсул</p>
+            <p id="text-2-11">Вишневое желе Atomy Montmorency Tart Cherry Stick 30 стиков</p>
+            <p id="text-2-12">Водорастворимый комплекс витаминов группы В Atomy Vitamin B Complex 90 капсул</p>
+            <p id="text-2-13">Гинкго Билоба и Натто Atomy Ginkgo & Natto 60 шт.</p>
+            <p id="text-2-14">Гранатовое Желе Atomy Pomegranate Beauty 60 стиков</p>
+            <p id="text-2-15">Ежедневный уход за здоровьем желудка Atomy Stomach Health Daily Care 30 стиков</p>
+            <p id="text-2-16">Жевательный кальций со вкусом молока и витаминами Atomy Chewable Calcium 120 капсул</p>
+            <p id="text-2-17">Железо Atomy Iron 60 стиков</p>
+            <p id="text-2-18">Иммунные жевательные конфеты с прополисом Atomy Green Propolis Immune Gummies 120 штук</p>
+            <p id="text-2-19">Коктейль для сбалансированного питания Atomy Balance Life 30 штук</p>
+            <p id="text-2-20">Коллаген питьевой Atomy Inner Collagen</p>
+            <p id="text-2-21">Королевская софора для женского здоровья Atomy Sophora Queen 120 капсул</p>
+            <p id="text-2-22">Красный Женьшень в стик-желе Atomy Korean Red Ginseng Jelly Stick 30 шт.</p>
+            <p id="text-2-23">Красный женьшень — Хонсамдам Atomy Hongsamdan 60 стиков</p>
+            <p id="text-2-24">Красный женьшень для детей Atomy Kids Red Ginseng 30 саше</p>
+            <p id="text-2-25">Лактиум Сладкий сон Atomy Good Sleep Lactium 60 капсул</p>
+            <p id="text-2-26">Луазантин — витамины для глаз Atomy Eye Health Luaxanthin 90 капсул</p>
+            <p id="text-2-27">Мультивитамины – мармеладки для детей Atomy Kids Gummy Multivitamin 60 штук</p>
+            <p id="text-3-1">Абсолют СеллАктив Ампула Atomy 40 мл</p>
+            <p id="text-3-2">Абсолют СеллАктив Крем для кожи вокруг глаз Atomy 40 мл</p>
+            <p id="text-3-3">Абсолют СеллАктив Лосьон Atomy 135 мл</p>
+            <p id="text-3-4">Абсолют Сноу Корректор пигментных пятен Atomy Absolute Snow Dark Spot Corrector</p>
+            <p id="text-3-5">Абсолют Сыворотка-спрей Atomy Absolute Oil Serum Mist 80 мл</p>
+            <p id="text-3-6">Акне Эксперт Концентрат Atomy Acne Clear Spot Solution 40 мл</p>
+            <p id="text-3-7">Акне Эксперт Пенка для Умывания Atomy Acne Clear Foam Cleanser 150 мл</p>
+            <p id="text-3-8">Акне Эксперт Сыворотка Atomy Acne Clear Serum 40 мл</p>
+            <p id="text-3-9">Акне Эксперт Тонер Atomy Acne Clear Toner 120 мл</p>
+            <p id="text-3-10">Ампулы Синергия Atomy Synergy Ampoule Program 4 шт.</p>
+            <p id="text-3-11">Атоми Скин Бустер EP Skinbooster</p>
+            <p id="text-3-12">Влажные салфетки для снятия макияжа Atomy Cleansing Wipes 20 шт</p>
+            <p id="text-3-13">Вода для снятия макияжа Atomy Mild Cleasing Water 300 мл</p>
+            <p id="text-3-14">Гидра Сияние Крем Atomy Hydra Brightening Cream 60 мл</p>
+            <p id="text-3-15">Гидра Сияние Набор Atomy Hydra Brightening Care Set</p>
+            <p id="text-3-16">Гидрогелевая маска Сияние Atomy Marine Ampoule Gel Mask Brightening & Firming 10 штук</p>
+            <p id="text-3-17">Гидрофильное масло Atomy Deep Pure Cleansing Oil 150 мл</p>
+            <p id="text-3-18">Двухфазное средство для снятия макияжа Atomy Lip & Eye Makeup Remover 150 мл</p>
+            <p id="text-3-19">Кисть для нанесения масок Atomy Absolute Mask Brush</p>
+            <p id="text-3-20">Мыло низкокислотное Atomy Family pH bar</p>
+            <p id="text-3-21">Мыло ручной работы из натуральных масел Atomy Donggubat Cleansing Bar 3 шт.</p>
+            <p id="text-3-22">Маска глиняная Хиноки Atomy Absolute Hinoki Clay Mask 50 мл</p>
+            <p id="text-3-23">Отшелушивающая Маска-плёнка Atomy Peel-Off Mask 120 мл</p>
+            <p id="text-3-24">Пенка для умывания Atomy Eco Mild Bubble Cleanser 150 мл</p>
+            <p id="text-3-25">Пенка для умывания Atomy Foam Cleanser 150 мл</p>
+            <p id="text-3-26">Розовый мист Atomy Rose Rain Mist 130 мл</p>
+            <p id="text-3-27">Стик от морщин Atomy Absolute Reset Balm</p>
+            <p id="text-4-1">Абсолют Солнцезащитный Кушон Atomy Absolute Urban Shield Sun Cushion SPF 50 PA++++</p>
+            <p id="text-4-2">Детское молочко от солнца Atomy Cerabebe Sun Milk SPF 33, РА +++ 40 мл</p>
+            <p id="text-4-3">Солнцезащитная эссенция Atomy Absolute Snow Tone-Up Essence Sun SPF50+ PA++++ 50 мл</p>
+            <p id="text-4-4">Солнцезащитная эссенция Абсолют Atomy SPF50+ PA++++ 40 мл</p>
+            <p id="text-4-5">Солнцезащитный крем Atomy Sunscreen White SPF 50+ PA+++ 60 мл</p>
+            <p id="text-4-6">Солнцезащитный крем (тонирующий) Atomy Sunscreen Beige SPF 50+ PA+++ 60 мл</p>
+            <p id="text-4-7">Успокаивающий Солнцезащитный Стик для лица Atomy Derma Calming Sunstick SPF 50+/PA++++</p>
+            <p id="text-4-8">Солнцезащитный крем Atomy Sunscreen White SPF 50+ PA+++ 60 мл</p>
+            <p id="text-5-1">BB крем Atomy BB Cream 40 мл</p>
+            <p id="text-5-2">Абсолют BB крем Atomy Absolute BB №21</p>
+            <p id="text-5-3">Абсолют Солнцезащитный Кушон Atomy Absolute Urban Shield Sun Cushion SPF 50 PA++++</p>
+            <p id="text-5-4">Аделика Карандаш для бровей (Коричневый, Серый)</p>
+            <p id="text-5-5">Аделика Тушь для объема ресниц Adelica Volume Mascara Black</p>
+            <p id="text-5-6">Аделика Удлиняющая тушь для ресниц Adelica Long Lash Mascara Black</p>
+            <p id="text-5-7">Аделика Хайлайтер Adelica 3D Highlighter</p>
+            <p id="text-5-8">Атоми Подводка-фломастер для глаз (чёрный)</p>
+            <p id="text-5-9">База под макияж Хэлси Глоу Atomy Healthy Glow Base 33 мл</p>
+            <p id="text-5-10">Бальзам для Губ Atomy Lip Treatment</p>
+            <p id="text-5-11">Блеск для Губ Atomy Lip Glow</p>
+            <p id="text-5-12">Блеск для губ красный Adelica Lip Color Glow Red</p>
+            <p id="text-5-13">Бронзатор Adelica Be Slim Bronzer</p>
+            <p id="text-5-14">Кисть для век Adelica Eye Smudge Brush</p>
+            <p id="text-5-15">Кисть для пудры Adelica Powder Brush</p>
+            <p id="text-5-16">Кисть для румян Adelica Blusher Brush</p>
+            <p id="text-5-17">Кисть скошенная Adelica Shading Brush</p>
+            <p id="text-5-18">Консилер Adelica Concealer</p>
+            <p id="text-5-19">Косметичка Atomy Travel Beauty Pouch</p>
+            <p id="text-5-20">Кушон №1 (Розовая слоновая кость) SPF 45/PA+++ Atomy Gold Collagen Ampoule Cushion 01 Pink
+                Ivory(3ea * 1set)</p>
+            <p id="text-5-21">Минеральная Пудра Atomy Air Pact</p>
+            <p id="text-5-22">Набор кистей Adelica Make-Up Brush Set</p>
+            <p id="text-5-23">Палетка теней для век Adelica от Atomy</p>
+            <p id="text-5-24">Помада губная классическая Adelica Lip Rouge Classic</p>
+            <p id="text-5-25">Рассыпчатая фиксирующая двухцветная пудра Adelica Loose Setting Powder</p>
+            <p id="text-5-26">Тушь Сила Объема Atomy Lash Power Mascara</p>
+            <p id="text-6-1">Абсолют Кондиционер Atomy Absolute Conditioner 500 мл</p>
+            <p id="text-6-2">Абсолют Маска Atomy Absolute Treatment 200 мл</p>
+            <p id="text-6-3">Интенсивный Протеиновый набор для восстановления волос Atomy Protein Intensive Hair Care
+                Set</p>
+            <p id="text-6-4">Интенсивный Протеиновый шампунь Atomy Protein Intensive Shampoo 400 мл</p>
+            <p id="text-6-5">Интенсивный тритмент (маска) для волос Atomy Protein Intensive Treatment</p>
+            <p id="text-6-6">Краска для волос золотисто-коричневая Atomy Salon & Color Gold Brown 3C</p>
+            <p id="text-6-7">Краска для волос кораллово-коричневая Atomy Salon & Color Coral Brown 4C</p>
+            <p id="text-6-8">Краска-мусс для волос коричневая Atomy Bubble & Color Brown G</p>
+            <p id="text-6-9">Краска-мусс для волос темно-коричневая Atomy Bubble & Color Dark Brown G</p>
+            <p id="text-6-10">Краска-мусс для волос черно-коричневая Atomy Buble & Color Natural Black Brown</p>
+            <p id="text-6-11">Масло для волос Atomy Hair Essential Oil 100 мл</p>
+            <p id="text-6-12">Скалпкеар кондиционер Atomy Scalpcare Conditioner 500 мл</p>
+            <p id="text-6-13">Скалпкеар шампунь Atomy Scalpcare Shampoo 500 мл</p>
+            <p id="text-6-14">Спрей против выпадения волос Atomy Saengmodan Hair Tonic 200 мл</p>
+            <p id="text-6-15">Эссенция для завивки волос Atomy Curling Essence 150 мл</p>
+            <p id="text-6-16">Эссенция протеиновая для волос Atomy Silk Protein Hair Essence 155 мл</p>
+            <p id="text-7-1">Дорожный набор для ухода за полостью рта Atomy Oral Care System *1set(4ea)</p>
+            <p id="text-7-2">Зубная Паста Atomy Toothpaste+ 4 шт. х 50 г</p>
+            <p id="text-7-3">Зубная паста детская Atomy Kids Natural Toothpaste 2 шт. х 50г</p>
+            <p id="text-7-4">Зубная паста для чувствительных зубов и десен Atomy Sensitive Teeth and Gums Toothpaste
+                100г х 3 шт.</p>
+            <p id="text-7-5">Зубная Паста набор Atomy Toothpaste+ 200g*1set(5ea)</p>
+            <p id="text-7-6">Межзубные ёршики Atomy Interdental Brush SS (1set x 16ea)</p>
+            <p id="text-7-7">Межзубные ёршики Atomy Interdental Brush SSSS (1set x 16ea)</p>
+            <p id="text-7-8">Набор зубных щеток Atomy Toothbrush *1set(8ea)</p>
+            <p id="text-7-9">Набор зубных щеток детских Atomy Kids Toothbrush</p>
+            <p id="text-7-10">Подарочный набор для ухода за полостью рта Atomy Oral Care Gift Set</p>
+            <p id="text-7-11">Скребок для чистки языка Atomy Tongue Cleaner</p>
+            <p id="text-8-1">Атоми Средство для мытья посуды</p>
+            <p id="text-8-2">Бумажный одноразовый стаканчик Atomy Disposable Paper Cup 1000 шт.</p>
+            <p id="text-8-3">Витаминный душ Atomy Vitamin Shower Set</p>
+            <p id="text-8-4">Влажная туалетная бумага Atomy Flushable Wipes 3 уп. х 15 шт.</p>
+            <p id="text-8-5">Влажные салфетки Atomy Wet Wipes 8 уп. х 70 шт.</p>
+            <p id="text-8-6">Губки антибактериальные для мытья посуды Atomy Scrubber 4 шт.</p>
+            <p id="text-8-7">Губки металлические для мытья посуды из нержавеющей стали Atomy Stainless Scrubber 2 шт.
+            </p>
+            <p id="text-8-8">Губки-салфетки для уборки и мытья посуды без химии Atomy Disposable Scrubber 30 шт.</p>
+            <p id="text-8-9">Жидкий стиральный порошок Atomy Liquid Detergent 2 кг</p>
+            <p id="text-8-10">Жидкий стиральный порошок Atomy Liquid Detergent Refill 2,1 кг</p>
+            <p id="text-8-11">Кислородный отбеливатель Atomy O2 Bubble Power 1,2 кг</p>
+            <p id="text-8-12">Кухонное полотенце Atomy Kitchen Towel 180 л. х 6 шт.</p>
+            <p id="text-8-13">Кухонные бумажные полотенца Atomy Kitchen Tissue 4 уп. х 135 шт.</p>
+            <p id="text-8-14">Перчатки одноразовые Atomy Eco Glove</p>
+            <p id="text-8-15">Пищевая эко-пленка Atomy 20см х 100м</p>
+            <p id="text-8-16">Прочные латексные перчатки в ассортименте 2 пары (размер L)</p>
+            <p id="text-8-17">Салфетки косметические Atomy Facial Tissue 4 уп. х 250 шт.</p>
+            <p id="text-8-18">Стиральный листовой порошок Atomy Sheet Laundry Detergent 30 листов</p>
+            <p id="text-8-19">Стиральный эко порошок Atomy Fabric Detergent (Powder) 0,5 кг</p>
+            <p id="text-8-20">Эко зип-пакеты (L) Atomy</p>
+            <p id="text-9-1">Вегетарианская Лапша Atomy Potato Cup Ramen 18 шт.</p>
+            <p id="text-9-2">Вегетарианская Лапша Atomy Vegetarian Potato Ramen 24 шт.</p>
+            <p id="text-9-3">Кофе Арабика со сливками Atomy Cafe Arabica 50 шт.</p>
+            <p id="text-9-4">Кофе Арабика Черный Atomy Cafe Arabica Black 80 шт.</p>
+            <p id="text-9-5">Лапша картофельный рамен (неострый) Atomy Potato Ramen Mild 4шт.</p>
+            <p id="text-9-6">Морская капуста в оливковом масле 2 банки х 64 слайса</p>
+
+            <p id="description-1"></p>
+            <p id="description-2">Довольно много людей по всему свету употребляют БАДы.
+                БАД-натуральные и/или схожие натуральным биодобавки, а также пробиотики, рассчитанные для применения
+                вместе с едой или входящие в число продуктов питания.
+                К БАДам имеют отношение травы, витамины, растительные вещества, минералы, аминокислоты, ферменты и
+                другие многочисленные продукты.
+                <br>
+                БАДы применяются как вспомогательная основа пищи, для совершенствования рациона.
+                Если ваш рацион не правильный, БАД поможет компенсировать дефицит определенных существенных полезных
+                веществ.
+                <br>
+                Научные исследования свидетельствуют, что определенные БАДы продуктивны для улучшения самочувствия, а
+                еще могут применены в совокупном лечении некоторых болезней. Скажем, Ca и витамин D нужны для сохранения
+                крепости костей; омега-3 помогает определенным людям с болезнями сердца.</p>
+            <p id="description-3">Уход за кожей лица должен быть ежедневным! Atomy предлагает широкий спектр средств для
+                ухода за кожей лица, предназначенных для достижения здоровья и красоты кожи.
+                Все компоненты для ухода за кожей лица Atomy прошли научные исследования и проверены на безопасность.
+                Они были разработаны с учетом индивидуальных потребностей кожи, чтобы обеспечить здоровье и красоту
+                вашей кожи в любом возрасте.</p>
+            <p id="description-4">
+                1. Защищает от эритемы (покраснения) и предотвращает солнечные ожоги.
+                <br>
+                Солнечный ожог – это не только кроваво-красная кожа, покрытая волдырями. Даже легкие покраснения, не
+                вызывающие дискомфорта и болезненных ощущений, уже являются ожогами. И пусть поначалу они выглядят
+                вполне безобидно, но если ситуация повторяется регулярно, то со временем это может привести к
+                злокачественным перерождениям в клетках кожи.
+                <br>
+                2. Предотвращает появление и дальнейшее прогрессирование варикозного расширения вен.
+                <br>
+                Людям с сосудистыми заболеваниями крайне важно избегать длительного пребывания на солнце, но если и
+                принимать солнечные ванны, то только с использованием защитного средства.
+                <br>
+                3. Замедляет фотостарение.
+                <br>
+                Ультрафиолетовые излучения замедляют процесс синтезирования организмом коллагена, а производство
+                ферментов, разрушающих это белковое вещество, наоборот, усиливают. Поскольку коллаген – главное
+                вещество, отвечающее за упругость кожи, то снижение его количества – прямой путь к образованию морщин и
+                преждевременному старению. Желаете замедлить возрастные изменения? Тогда солнцезащитный крем должен
+                использоваться ежедневно.
+                <br>
+                4. Предотвращает появление веснушек и пигментных пятен.
+                <br>
+                Под воздействием солнечного света активизируется производство меланина. В результате появляется не
+                только красивый загар, но и пигментные пятна и веснушки.
+                <br>
+                5. Сохраняет естественное сияние кожи.
+                <br>
+                Если кожа постоянно подвергается воздействию солнечных лучей, в ней замедляются процессы регенерации.
+                Как следствие, она выглядит тусклой, теряет естественное сияние. Использование солнцезащитного крема
+                позволяет избежать этого.
+                <br>
+                6. Предотвращает возникновение разных заболеваний.
+                <br>
+                Регулярное пребывание на солнце без защитных средств ведет к снижению иммунитета. Под влиянием УФ
+                повышается риск обострения розацеа, герпеса, ветряной оспы, псориаза, красной волчанки, а также
+                аллергии. Кроме того, ультрафиолетовые излучения считаются фактором, усиливающим рост раковых клеток,
+                что крайне опасно для лиц с онкологическими заболеваниями и состоящим в зоне риска.
+                <br>
+                Влияние солнечного света на человеческий организм имеет еще одну опасную особенность, о которой не стоит
+                забывать. Последствия воздействия УФ волн накапливаются в организме. Это значит, что полученные в
+                молодости солнечные ожоги могут стать причиной проблем не сразу, а спустя много лет.
+            </p>
+            <p id="description-5">
+                Декоративная косметика: что предлагает инновационная индустрия красоты в Южной Корее
+                Использование косметики помогает выделить достоинства: сделать тон лица однородным, взгляд – ярким, губы
+                – привлекающими. На сегодняшний день косметикой пользуются и женщины, и мужчины.
+                А кто же изобрел эту косметику?
+                <br>
+                Само слово «косметика» ввели в оборот древние греки и переводится оно как «искусство украшать».
+                Тем не менее в первый раз краску для лица применили в Африке: узоры применялись для исполнения
+                религиозных церемоний и на празднества, защитные изображения – для отпугивания противников. Но
+                источником декоративной косметики является Египет, где ее использование было неким обожествлением.
+                Важные особы подводили глаза, подкрашивали губы, применяли пудру. До нашего времени уцелело большинство
+                секретов красоты ведущих древнеегипетских прелестниц Нефертити и Клеопатры.
+                <br>
+                Поспевали за египтянами и обитатели Древнего Китая и Индии. Помимо туши для ресниц и краски для ногтей,
+                в этом месте применялись белила для лица, которые достигали результата «благородной бледности».
+                Очаровательницы Древней Руси использовали предпочтительно натуральные способы: сливки, мед, сок свеклы,
+                уголь.
+                <br>
+                Классифицирование декоративной косметики
+                Косметическая отрасль безостановочно развивается, ежедневно возникают оригинальные, высокосовершенные
+                косметические средства. Наши родители даже не знали о консилерах и хайлайтерах, а сегодня они находятся
+                в сумочке любой девушки.
+            </p>
+            <p id="description-6">
+                Красивые волосы = здоровые волосы. Вы согласны?
+                Как же подобрать средства для ухода за волосами?
+                <br>
+                ❗ Важно понимать на решение каких задач направлено средство. Определяем слабые места: кожа головы,
+                качество волос, выпадение, отсутствие объёма, перхоть или другие аспекты, которые требуют особого
+                внимания.
+                <br>
+                В Atomy существует 4 линейки для волос:
+                1. Абсолют;
+                2. Скалпкеар;
+                3. Хербал;
+                4. Протеиновый.
+                <br>
+                ✅ Серия Абсолют для нормальной кожи головы, склонной к возникновению перхоти, для окрашенных волос, для
+                секущихся волос, волосам склонным к выпадению.
+                Идеален для тонких и травмированных волос. Способствует их росту.
+                Имеет стойкий восточный пряный аромат с цитрусовыми и с оттенками освежающей зелени, жасмина, розы,
+                мускусными и древесными нотами.
+                В составе сочетание 4-х отваров из лечебных трав, которые оздоравливают волосы.
+                В наборе шампунь 500 мл + кондиционер 500 мл + маска 200 мл.
+                <br>
+                ✅ Серия Скалпкеар подойдёт для волос, склонных к жирности и перхоти. Имеет лёгкий травяной аромат с
+                ментолом, поэтому приятно холодит кожу головы при мытье. Благодаря ментолу активизируются луковицы и
+                начинается рост волос.
+                Придает волосам здоровый блеск, сияние и шикарный объём.
+                В наборе шампунь 500 мл + кондиционер 500 мл.
+                <br>
+                ✅ Серия Хербал восстанавливает и поддерживает нормальный ph 5-7 кожи и волос, рвущихся или жестких в
+                результате частых химических завивок или окрашивания. Выравнивает текстуру волос. Придаёт здоровый
+                блеск, укрепляет корни волос и снижает вероятность электризации волос, что особо актуально в зимний
+                период.
+                Этот набор подойдёт абсолютно любой девушке или мужчине с любым типом волос и кожи головы.
+                Шампунь и кондиционер по 500 мл.
+                <br>
+                ✅ Протеиновая серия — моментальное восстановление поврежденных и безжизненных волос. Результат виден
+                сразу после 1 применения. Защищает уже поврежденные волосы от дальнейших повреждений. Подойдёт всем
+                типам кожи, имеет слабокислый баланс ph 5-6,5. Бессульфатный.
+                Аромат из симфонии свежих зелёных нот с освежающим ароматом чёрной смородины.
+                Используем не на постоянной основе, для подпитки, затем пользуемся другой любимой серией.
+                В наборе шампунь 400 мл+тритмент 200 мл.
+            </p>
+            <p id="description-7">
+                Уход за полостью рта — это важный аспект общего ухода за здоровьем. Это включает в себя ежедневную
+                чистку зубов, использование зубной нити или зубных ёршиков и ополаскивание рта.
+                <br>
+                Регулярное очищение полости рта помогает предотвратить кариес, заболевания десен и общую плохую гигиену.
+                Чистка зубов должна проводиться два раза в день, используя щетку со средней жесткостью и пасту,
+                содержащую фторид.
+                <br>
+                Зубная нить или зубные ёршики должны использоваться для удаления остатков еды между зубами, а
+                ополаскиватель для рта может помочь освежить дыхание и убить бактерии.
+                <br>
+                Важно не забывать посещать стоматолога для профессиональной чистки зубов и контроля здоровья полости
+                рта. Регулярный уход за полостью рта поможет сохранить здоровье зубов и в целом улучшить качество жизни.
+            </p>
+            <p id="description-8"></p>
+            <p id="description-9"></p>
+        </selection>
+    </main>
+
+    <div class="controls">
+        <div class="controls__inner">
+            <div data-id="home" class="control control--active"><ion-icon name="home"></ion-icon></div>
+            <div data-id="about" class="control"><ion-icon name="person"></ion-icon></div>
+            <div data-id="catalog" class="control"><ion-icon name="cart"></ion-icon></div>
+            <div data-id="register" class="control"><ion-icon name="help-circle"></ion-icon></div>
+            <div data-id="blog" class="control"><ion-icon name="newspaper"></ion-icon></div>
+            <div data-id="feedback" class="control"><ion-icon name="mail-open"></ion-icon></div>
+        </div>
+    </div>
+    <div class="theme">
+        <ion-icon name="contrast-outline"></ion-icon>
+    </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
